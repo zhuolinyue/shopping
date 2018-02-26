@@ -33,6 +33,8 @@
     "browser-cookies": "^1.2.0",
     "css-loader": "^0.28.10",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "rc-pagination": "^1.15.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",

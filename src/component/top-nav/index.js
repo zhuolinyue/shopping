@@ -1,7 +1,28 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React          from 'react'
+import { Link , withRouter }       from 'react-router-dom'
+import Mutil          from "utils";
+import User           from "service/user-service";
+const _mm        =  new Mutil( ) ;
+const _user      = new User( );
+
 import './index.scss'
+@withRouter
 class TopNav extends React.Component {
+    constructor( props ) {
+        super( props )
+        this.state = {
+            username : _mm.getLocalStorage('userInfo').username || ''
+        }
+        this.logout = this.logout.bind(this)
+    }
+    logout(){
+        _user.logout().then(res => {
+            _mm.removeLocalStorage('userInfo');
+            this.props.history.push('/login')
+        }, errMsg => {
+            _mm.errorTips( errMsg )
+        })
+    }
     render () {
         return (
             <header className="main-header">
@@ -155,8 +176,8 @@ class TopNav extends React.Component {
                                                     </div>
                                                 </a>
                                             </li>
-                                            {/* end task item */}
-                                            <li>{/* Task item */}
+
+                                            <li>
                                                 <a href="#">
                                                     <h3>
                                                         Create a nice theme
@@ -183,8 +204,8 @@ class TopNav extends React.Component {
                                                     </div>
                                                 </a>
                                             </li>
-                                            {/* end task item */}
-                                            <li>{/* Task item */}
+
+                                            <li>
                                                 <a href="#">
                                                     <h3>
                                                         Make beautiful transitions
@@ -209,15 +230,20 @@ class TopNav extends React.Component {
                             <li className="dropdown user user-menu">
                                 <a href="javascript:" className="dropdown-toggle" >
                                     <img src="https://adminlte.io/themes/AdminLTE/dist/img/user2-160x160.jpg" className="user-image" alt="User Image" />
-                                    <span className="hidden-xs">欢迎</span>
-                                    <span className="hidden-xs">admin</span>
+                                    {this.state.username
+                                        ? <span><span className="hidden-xs">欢迎，</span>
+                                            <span className="hidden-xs">{this.state.username || 'admin'}</span>
+                                            </span>
+                                        :<span className="hidden-xs">欢迎您</span>
+                                    }
+
                                 </a>
                                 <ul className="dropdown-menu">
 
 
                                     <li className="user-footer">
                                         <div className="pull-right">
-                                            <a href="javascript:" className="btn btn-default btn-flat">Sign out</a>
+                                            <a href="javascript:" onClick = { this.logout} className="btn btn-default btn-flat">退出登录</a>
                                         </div>
                                     </li>
                                 </ul>

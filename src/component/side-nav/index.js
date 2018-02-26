@@ -18,7 +18,7 @@ class SideNav extends React.Component {
                         </li>
                         <li className="treeview menu-open">
                             <Link to="/product">
-                                <i className="fa fa-pie-chart"></i>
+                                <i className="fa fa-list"></i>
                                 <span>商品管理</span>
                                 <span className="pull-right-container">
                                      <i className="fa fa-angle-left pull-right"></i>
@@ -32,7 +32,7 @@ class SideNav extends React.Component {
                         </li>
                         <li className="treeview  menu-open">
                             <Link to="/order">
-                                <i className="fa fa-pie-chart"></i>
+                                <i className="fa fa-check-square-o"></i>
                                 <span>订单</span>
                                 <span className="pull-right-container">
                                      <i className="fa fa-angle-left pull-right"></i>
@@ -44,15 +44,15 @@ class SideNav extends React.Component {
                             </ul>
                         </li>
                         <li className="treeview  menu-open">
-                            <Link to="/product">
-                                <i className="fa fa-pie-chart"></i>
+                            <Link to="/user">
+                                <i className="fa fa-user-o"></i>
                                 <span>用户</span>
                                 <span className="pull-right-container">
                                      <i className="fa fa-angle-left pull-right"></i>
                                 </span>
                             </Link>
                             <ul className="treeview-menu">
-                                <li><NavLink to="/" activeClassName='active'><i className="fa fa-circle-o"></i>用户管理</NavLink></li>
+                                <li><NavLink to="/user" activeClassName='active'><i className="fa fa-circle-o"></i>用户管理</NavLink></li>
 
                             </ul>
                         </li>

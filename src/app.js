@@ -4,24 +4,36 @@ import { BrowserRouter as Router, Route , Switch ,Link ,Redirect } from 'react-r
 import ReactDOM         from 'react-dom'
 import Home             from    "page/home";
 import Layout           from    "component/layout";
+import  Login           from "page/login";
+import ErrorPage        from "page/error";
 import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import UserList from "page/user";
 
 class App extends React.Component {
     render ( ) {
+        const Layouter = (
+        <Layout >
+            <Switch>
+                <Route exact path='/' component={ Home } />
+                <Route  path='/product' component={ Home } />
+                <Route  path='/product-category' component={ Home } />
+                <Route  path='/order' component={ Home } />
+                <Route  path='/user/index' component={ UserList }/>
+                <Redirect exact from='/user' to='/user/index' />
+                <Route path='*' component={ErrorPage} />
+            </Switch>
+        </Layout>
+    )
         return (
-            <div>
-                <Router>
-                    <Layout >
-                        <Switch>
-                            <Route exact path='/' component={ Home } />
-                            <Route  path='/product' component={ Home } />
-                            <Route  path='/product-category' component={ Home } />
-                            <Route  path='/order' component={ Home } />
-                        </Switch>
-                    </Layout>
+            <Router>
+                    <Switch>
+                        <Route path='/login' component={ Login } />
+                        <Route path='/' render = { props => Layouter}  />
+
+                    </Switch>
                 </Router>
-            </div>
+
 
 
         )
