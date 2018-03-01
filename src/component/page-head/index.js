@@ -4,9 +4,6 @@ class PageHead extends React.Component{
     constructor(props){
        super(props)
     }
-    componentWillMount(){
-        document.title = this.props.title + 'linzai'
-    }
     render () {
 
         return (
