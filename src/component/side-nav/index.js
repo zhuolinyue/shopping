@@ -26,7 +26,7 @@ class SideNav extends React.Component {
                             </Link>
                             <ul className="treeview-menu">
                                 <li><NavLink to="/product" activeClassName='active'><i className="fa fa-circle-o"></i>商品管理</NavLink></li>
-                                <li><NavLink to="/product-category" activeClassName='active'><i className="fa fa-circle-o"></i> 品类管理</NavLink></li>
+                                <li><NavLink to="/category" activeClassName='active'><i className="fa fa-circle-o"></i> 品类管理</NavLink></li>
 
                             </ul>
                         </li>

@@ -128,10 +128,10 @@ class ProductSave extends React.Component {
                     <meta name="description" content="学而思网校为3-18岁孩子提供小学、初中、高中全学科一站式课外教学。“直播+辅导”双师教学，实现了直播上课、实时互动、随堂测试、语音测评、及时答疑、作业作文批改、错题订正，大幅度提升学习效果。全国200多个城市，超过500万中小学生正在网校高效学习" />
                     <meta name="keywords" content="学而思网校,在线学习,在线辅导,直播授课,中小学辅导课程,视频课程,网络课程" />
                     <meta name="renderer" content="webkit" />
-                    <title>添加商品</title>
+                    <title>{this.state.id ? "编辑商品" : "添加商品"}</title>
                     <link rel="canonical"  />
                 </Helmet>
-                <PageTitle title="添加商品" />
+                <PageTitle title={this.state.id ? "编辑商品" : "添加商品"} />
                 <div className="content" style={{marginTop:"30px"}}>
                     <div className="row">
                        <div className="col-md-12">
@@ -141,7 +141,7 @@ class ProductSave extends React.Component {
                                 <div className="col-md-5">
                                     <input type="text"
                                            name='name'
-                                           value={this.state.id ? this.state.name : ''}
+                                           value={this.state.name }
                                            onChange = { e => {this.onInputChange(e)}}
                                            className="form-control"
                                            placeholder="请输入商品名称" />
@@ -153,7 +153,7 @@ class ProductSave extends React.Component {
                                     <input type="text"
                                            name='subtitle'
                                            onChange = { e => {this.onInputChange(e)}}
-                                           value={this.state.id ? this.state.subtitle : ''}
+                                           value={this.state.subtitle }
                                            className="form-control"
                                            placeholder="请输入商品描述" />
                                 </div>
@@ -169,7 +169,7 @@ class ProductSave extends React.Component {
                                         <input type="number"
                                                name='price'
                                                onChange = { e => {this.onInputChange(e)}}
-                                               value={this.state.id ? this.state.price : ''}
+                                               value={this.state.price}
                                                className="form-control"
                                                placeholder='价格' />
                                         <span className="input-group-addon">元</span>
@@ -184,7 +184,7 @@ class ProductSave extends React.Component {
                                                name='stock'
                                                onChange = { e => {this.onInputChange(e)}}
                                                className="form-control"
-                                               value={this.state.id ? this.state.stock : ''}
+                                               value={this.state.stock}
                                                placeholder='库存'  />
                                         <span className="input-group-addon">件</span>
                                     </div>

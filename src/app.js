@@ -12,6 +12,7 @@ import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+
 class App extends React.Component {
     render ( ) {
         const Layouter = (
@@ -19,7 +20,7 @@ class App extends React.Component {
             <Switch>
                 <Route exact path='/' component={ Home } />
                 <Route  path='/product' component={ ProductRoute } />
-                <Route  path='/product-category' component={ Home } />
+                <Route  path='/category' component={ ProductRoute } />
                 <Route  path='/order' component={ Home } />
                 <Route  path='/user/index' component={ UserList }/>
                 <Redirect exact from='/user' to='/user/index' />
