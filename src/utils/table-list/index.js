@@ -49,5 +49,20 @@ class TableList extends React.Component{
 
         )
     }
+    /*移动端点击任何一个地方显示隐藏*/
+    /*$(document).bind('click',function(e){
+        var e = e || window.event; //浏览器兼容性
+        var elem = e.target || e.srcElement;
+        while (elem) { //循环判断至跟节点，防止点击的是div子元素
+            if (elem.id && elem.id=='test') {
+                return;
+            }
+            elem = elem.parentNode;
+        }
+
+        $('#test').css('display','none'); //点击的不是div或其子元素
+    });
+
+    * */
 }
 export default TableList
