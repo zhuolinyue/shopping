@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="5415d0a3-b145-41d5-b0fe-7b8f905d24b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/page/order/detail.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/page/order/detail.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/page/order/index-list-search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/page/order/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/order-service.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
-      <change beforePath="$PROJECT_DIR$/src/utils/table-list/index.js" afterPath="$PROJECT_DIR$/src/utils/table-list/index.js" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/table-list/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/order/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,11 +53,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="detail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/product/index/detail.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1157">
-              <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+              <caret line="126" column="34" lean-forward="false" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
               <folding>
                 <element signature="e#2604#2966#0" expanded="false" />
                 <element signature="e#2999#3364#0" expanded="false" />
@@ -81,16 +96,6 @@
                 <element signature="e#4439#5196#0" expanded="false" />
                 <element signature="e#5229#6041#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-list-search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/order/index-list-search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,27 +114,17 @@
         <entry file="file://$PROJECT_DIR$/src/service/order-service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/product-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="110" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -192,7 +187,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/component/layout/res/navbar.less" />
         <option value="$PROJECT_DIR$/src/component/layout/index.js" />
         <option value="$PROJECT_DIR$/src/component/layout/res/skin.css" />
@@ -202,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/service/user-service.js" />
         <option value="$PROJECT_DIR$/src/component/top-nav/index.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/page/home/index.scss" />
         <option value="$PROJECT_DIR$/src/service/statistic-service.js" />
         <option value="$PROJECT_DIR$/src/page/error/index.scss" />
@@ -227,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/page/product/index/category-selector.js" />
         <option value="$PROJECT_DIR$/src/page/product/index/detail.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitconfig" />
         <option value="$PROJECT_DIR$/src/page/product/index/save.js" />
         <option value="$PROJECT_DIR$/src/component/side-nav/index.js" />
         <option value="$PROJECT_DIR$/src/page/product/router.js" />
@@ -241,6 +233,9 @@
         <option value="$PROJECT_DIR$/src/page/order/detail.scss" />
         <option value="$PROJECT_DIR$/src/page/order/detail.js" />
         <option value="$PROJECT_DIR$/src/service/order-service.js" />
+        <option value="$PROJECT_DIR$/.gitconfig" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -253,9 +248,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="140" />
-    <option name="y" value="294" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="341" />
     <option name="width" value="1369" />
     <option name="height" value="708" />
   </component>
@@ -421,15 +416,15 @@
       <workItem from="1519787431667" duration="17841000" />
       <workItem from="1519866512253" duration="7871000" />
       <workItem from="1519886107586" duration="12179000" />
-      <workItem from="1519954494527" duration="7033000" />
+      <workItem from="1519954494527" duration="8466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123762000" />
+    <option name="totallyTimeSpent" value="125195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="294" width="1369" height="708" extended-state="1" />
+    <frame x="352" y="341" width="1369" height="708" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30353117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,14 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -534,14 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="113" column="28" lean-forward="false" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +711,7 @@
         <state relative-caret-position="2190">
           <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,7 +729,7 @@
         <state relative-caret-position="2700">
           <caret line="96" column="38" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="38" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -760,16 +739,8 @@
         <state relative-caret-position="990">
           <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="39" selection-end-column="29" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +749,7 @@
         <state relative-caret-position="3870">
           <caret line="137" column="55" lean-forward="false" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="55" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
             <element signature="e#4916#5565#0" expanded="false" />
             <element signature="e#5594#6250#0" expanded="false" />
           </folding>
@@ -790,7 +761,7 @@
         <state relative-caret-position="210">
           <caret line="152" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="26" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
             <element signature="e#2467#2911#0" expanded="false" />
           </folding>
         </state>
@@ -842,7 +813,7 @@
     <entry file="file://$PROJECT_DIR$/src/page/product/index/detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1157">
-          <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+          <caret line="126" column="34" lean-forward="false" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
           <folding>
             <element signature="e#2604#2966#0" expanded="false" />
             <element signature="e#2999#3364#0" expanded="false" />
@@ -875,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/src/service/order-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -884,6 +855,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>

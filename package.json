@@ -6,8 +6,9 @@
   "author": "wanglinzai <1026158524@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server",
-    "dist": "node_modules/.bin/webpack"
+    "dev"      : "node_modules/.bin/webpack-dev-server",
+    "dist"     : "set WEBPACK_ENV=online&&  node_modules/.bin/webpack -p",
+    "dist_win" : "set WEBPACK_ENV=online&& node_modules/.bin/webpack"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.0.0-beta.40",
